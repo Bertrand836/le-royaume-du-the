@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #8fb900;
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+header a:hover {
+    background: teal;
+    transition: 0.3s ease;
+}
+
+header h1 {
+     font-size: 22px;
+     color: white;
+}
+
+header div {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
